@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #afddf9;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+        }
+        nav {
+            color: #fff;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container1,.container2,.container3 {
+            background-color:#fff;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        /* Side menu styling */
+        .sidenav {
+            width: 250px;
+            position: fixed;
+            top: 60;
+            left: -250px;
+            background-color: #3498db;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+            border-radius: 0 10px 10px 0;
+        }
+        .sidenav a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.2s;
+        }
+        .sidenav a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .menu-btn {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #afddf9;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <button class="menu-btn" onclick="toggleNav()" style="font-size: larger;">☰</button>
+        <input type="text" placeholder="Search...">
+    </nav>
+</header>
+    <div class="sidenav" id="sidenav">
+        <a href="#">My Account</a>
+        <a href="#">Rent</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Cart</a>
+        <a href="#">About Us</a>
+    </div>
+    <div class="container1">
+        <h1>Bestsellers</h1>
+       <table>
+        <tr>
+            <td><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg" height="150" width="150"></td>
+            <td style="font-size: 40PX;">The Alchemist<br><P style="font-size:22PX;"> Cost:190INR</P></td>
+        </tr>
+    </table>
+    </div>
+    <div class="container2">
+        <h1>Popular Authors</h1>
+       <table>
+        <tr>
+            <td><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg" height="150" width="150"></td>
+            <td style="font-size: 40PX;">The Alchemist<br><P style="font-size:22PX;"> Cost:190INR</P></td>
+        </tr>
+    </table>
+    </div>
+    <div class="container3">
+        <h1>Newly Rented</h1>
+       <table>
+        <tr>
+            <td><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg" height="150" width="150"></td>
+            <td style="font-size: 40PX;">The Alchemist<br><P style="font-size:22PX;"> Cost:190INR</P></td>
+        </tr>
+    </table>
+    </div>
+    <script>
+        function toggleNav() {
+            const sidenav = document.getElementById('sidenav');
+            if (sidenav.style.left === '-250px') {
+                sidenav.style.left = '0';
+            } else {
+                sidenav.style.left = '-250px';
+            }
+        }
+    </script>
+</body>
+</html>
