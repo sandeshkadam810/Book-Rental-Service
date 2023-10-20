@@ -1,0 +1,197 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* CUSTOMIZE THE NAVBAR
+------------------------------------------------------------------------------------------------ */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-item-text:hover {
+    color: rgb(212, 214, 216) !important;
+}
+
+.login-btn:hover {
+    background-color: black !important;
+}
+
+.search-btn:hover {
+    background-color: rgb(59, 59, 59) !important;
+    border-radius: 100px !important;
+}
+
+.dropdown-divider {
+    color: white !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+------------------------------------------------------------------------------------------------ */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 29rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+}
+
+.carousel-justify {
+    flex-wrap: wrap;
+}
+
+
+/* CUSTOMIZE THE BOOK CARD
+------------------------------------------------------------------------------------------------ */
+.overlay {
+    position: absolute;
+    left: 49.9%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92, 95, 236, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.rent-btn {
+    justify-content: center;
+    display: flex;
+    background-color: #f00b52;
+    color: #ffffff;
+    font-weight: 700;
+    width: 60%;
+    border-radius: 200px !important;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.rent-btn:hover {
+    color: #fff;
+    background-color: #b20909;
+    transition: all ease 0.3s;
+}
+
+
+.card:hover .overlay {
+    visibility: visible;
+    animation: fade 0.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#bookCardName a {
+    color: black;
+}
+
+/* CUSTOMIZE THE FOOTER
+------------------------------------------------------------------------------------------------ */
+#footer {
+    background: #404040;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#footer .copyright {
+    text-align: center;
+}
+
+/* CUSTOMIZE THE SCROLL TO TOP BUTTON
+------------------------------------------------------------------------------------------------ */
+#ScrollUpBtn {
+    position: fixed;
+    right: 2%;
+    bottom: 4%;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    border-radius: 1.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    outline: none;
+    display: none;
+    background: rgb(9, 105, 218);
+}
+
+#ScrollUpBtn:hover {
+    background-color: rgb(8, 97, 199);
+}
+
+/* CUSTOMIZE DARK MODE BUTTON
+------------------------------------------------------------------------------------------------ */
+#dark-btn {
+    position: fixed;
+    left: 0%;
+    bottom: 4%;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0 0 4px rgba(82, 76, 76, 0.5);
+    transition: all 0.2s ease-in;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    outline: none;
+    display: block;
+    background-color: black;
+}
+
+#Dark-btn span {
+    line-height: 0.5rem;
+}
+
+/* ALL PAGES CSS
+------------------------------------------------------------------------------------------------ */
+.field_error {
+    color: red;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#after-rent {
+    display: none;
+}
+
+#sidebar-nav {
+    width: 160px;
+}
+

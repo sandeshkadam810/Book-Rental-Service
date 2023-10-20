@@ -1,0 +1,59 @@
+.dark-mode {
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(211, 207, 202) !important;
+}
+
+.dark-mode .book-category-column {
+    background-color: rgb(24, 26, 27) !important;
+}
+
+.dark-mode a {
+    color: rgb(211, 207, 202) !important;
+}
+
+.dark-mode footer a {
+    color: rgb(138, 110, 253) !important;
+}
+
+.dark-mode .list-group-item {
+    color: rgb(211, 207, 202);
+    background-color: rgb(24, 26, 27);
+    border: 1px solid rgba(211, 207, 202, .125);
+}
+
+.dark-mode .form-control {
+    color: rgb(211, 207, 202);
+    background-color: rgb(24, 26, 27);
+    border: 1px solid rgba(211, 207, 202, .125);
+}
+
+.dark-mode .form-control:focus {
+    color: rgb(211, 207, 202);
+    background-color: rgb(24, 26, 27);
+    border: 1px solid rgba(211, 207, 202, .125);
+}
+
+.dark-mode .accordion-item {
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(211, 207, 202) !important;
+    border: 1px solid rgba(211, 207, 202, .125);
+}
+
+.dark-mode .accordion-button {
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(211, 207, 202) !important;
+    border: 1px solid rgba(211, 207, 202, .125);
+
+}
+
+.dark-mode .table {
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(211, 207, 202) !important;
+}
+
+.dark-mode .form-floating {
+    color: rgb(211, 207, 202) !important;
+    background-color: rgb(24, 26, 27) !important;
+    border: 1px solid rgba(211, 207, 202, .125) !important;
+}
+
