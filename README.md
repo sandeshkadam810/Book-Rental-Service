@@ -2,7 +2,6 @@ Book rental website Using PHP HTML CSS JS and Bootstrap
 It is a mini-project developed by me on Web development in my 3rd sem of Bsc IT.
 contribution and fork allowed for personal project use but no copyright and commerial use allowed
 
-# Output
 
 Homepage: 
 ![image](https://user-images.githubusercontent.com/71167081/160868378-4fb4437f-4e69-4a62-a14c-4f9cae3638e2.png)
